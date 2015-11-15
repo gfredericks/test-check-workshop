@@ -1,0 +1,15 @@
+my.keystore
+pom.xml
+*jar
+/lib/
+/classes/
+.lein-deps-sum
+*~
+*#
+.cake
+.DS_Store
+.#*
+.emacs-project
+.lein-failures
+target
+/fake-mongo

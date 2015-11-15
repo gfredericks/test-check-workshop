@@ -1,0 +1,661 @@
+body {
+   background-color: #bbddee;
+   font-size: 12px;
+   font-family: Verdana, Arial, Helvetica, SunSans-Regular, Sans-Serif;
+   color:#564b47;
+   margin: 20px 0;
+   text-align: center;
+}
+
+img {border:none}
+
+div.progress-bar-bg {
+    border: 1px solid black;
+    height: 7px;
+    width: 100px;
+    display: block;
+}
+
+div.progress-bar {
+    background-color: #00FF00;
+    height: 100%;
+    display: block;
+    float: left;
+}
+
+#account.header-option {
+   float:right;
+   width: 100%;
+   text-align: right;
+   padding: 0px 15px 0px 0px;
+   background-color: #fff;
+   font-weight: bold;
+}
+
+#manage-unapproved {
+  position: absolute;
+  right: 150px;
+}
+
+.header-option a:link {color: #445599;}
+.header-option a:visited {color: #445599;}
+.header-option a:active {color: #445599;}
+.header-option a:hover {color: #7CFC00;}
+.header-option a {text-decoration: none; font-size: 12px; font-weight:bold;}
+
+#wrapper {
+   width: 100%;
+   margin: 15px;
+   padding: 15px 0px 15px 0px;
+   text-align: left;
+   background-color: #fff;
+   overflow: auto;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+}
+
+#content {
+   width: 85%;
+   margin: 15px auto;
+   border: 2px solid #3D3C3C;
+   text-align: left;
+   background-color: #fff;
+   overflow: auto;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   position: relative;
+}
+
+#content_body {
+   margin: 15px;
+   padding: 15px 0px 15px 0px;
+   text-align: left;
+   background-color: #fff;
+   overflow: auto;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+}
+
+#top {
+   width: 85%;
+   padding: 15px 0px 15px 0px;
+   margin: 0 auto;
+}
+div#top a {
+  border: 0;
+}
+
+h3 {
+   font-size: 18px;
+}
+
+
+#menu{
+   background-color:#445599;
+   border-radius: 12px 12px 0 0;
+   padding: 20px 15px 15px 15px;
+   color: #fff;
+}
+
+#lower-menu {
+  background-color: darkblue;
+  padding: 10px 5px 10px;
+  color: #7CFC00;
+}
+#lower-menu a:link {color: #fff;}
+#lower-menu a:visited {color: #fff;}
+#lower-menu a:active {color: #445599;}
+#lower-menu a:hover {color: #7CFC00;}
+#lower-menu a {text-decoration: none; font-size: 1.1em; font-weight:bold; padding: 0 20px;}
+
+a.novisited {color: #00e;}
+
+#menu a:link {color: #fff;}
+#menu a:visited {color: #fff;}
+#menu a:active {color: #fff;}
+#menu a:hover {color: #7CFC00;}
+#menu a {text-decoration: none; font-size: 14px; font-weight:bold;}
+#menu a.menu {margin: 15px;}
+
+.user-follow-button{
+    margin-left: 20px;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+
+.user-profile-name{
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.user-profile-link{
+    text-decoration: none;
+    color: black;
+}
+
+td a.user-profile-link {
+    display: block;
+    margin-top: 5px;
+}
+
+#profile-pic{
+    float: left;
+    padding-right: 10px;
+}
+
+#profile-pic img{
+    border: 2px solid black;
+}
+
+img.gravatar{
+    float: left;
+    display: inline;
+    margin-right: 5px;
+    border: 1px solid grey;
+}
+
+#user-info{
+   float:right;
+}
+
+#username{
+   padding-right: 10px;
+   border-right: 2px solid white;
+}
+
+.contributor {
+   color: #458B00;
+   font-weight: bold;
+}
+
+#login {
+   border-right: 2px solid white;
+   padding-right: 1em;
+}
+
+#logout {
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+#register {
+   padding-left: 1em;
+}
+
+#logo {
+   width: 249px;
+   height: 84px;
+   margin-left: -7px;
+   float:left;
+   padding:15px 0px 15px 0px;
+   border: 0;
+}
+
+#welcome{
+   width: 100%;
+   float: left;
+}
+
+#totalcount {
+   float: right;
+   padding: 8px 8px 2px 8px;
+   margin: 0 0 10px 5px;
+   font-size: 25px;
+   line-height: 35px;
+   background-color: #eee;
+   border: 1px solid #aaa;
+   color: #000;
+   font-weight: normal;
+   font-family: Helvetica, Arial, Sans-serif;
+}
+#totalcount p {
+  margin: 0 0;
+}
+
+#footer{
+   background-color:#445599;
+   border-radius: 0 0 12px 12px;
+   padding: 15px;
+   color: #fff;
+   text-align: center;
+}
+
+#footer img {
+   float: left;
+}
+
+#problem-table, table#unapproved-problems {
+   float: left;
+   width: 100%;
+}
+
+.rss {
+   width: 24px;
+   float: left;
+   clear: left;
+   background-image: url('../images/feed.png');
+   background-repeat: no-repeat;
+   background-position: top right;
+   height: 24px;
+   padding-bottom: 5px;;
+}
+
+#user-table, #server-user-table{
+   float: left;
+   width: 100%;
+   padding: 15px;
+}
+
+/*
+ * By default only show the text label for the "Following" column on
+ * the users page.  If they have javascript turned on (detected
+ * via. the js-enabled class set by our page's javascript) then turn
+ * off the text label and turn on the checkbox.
+ */
+#user-table input.following {
+    display: none;
+}
+
+#user-table span.following {
+    display: inline;
+}
+
+#user-table.js-enabled input.following {
+    display: inline;
+}
+
+#user-table.js-enabled span.following {
+    display: none;
+}
+
+/*
+ * If datatables is fetching stuff from the server, we definitely have
+ * javascript enabled, so hide the span to begin with.
+ */
+#server-user-table span.following {
+    display: none;
+}
+
+
+span.error, div.error {
+   color: red;
+}
+
+div.message {
+   font-size: 16px;
+   width: 75%;
+   float: left;
+}
+
+div#heading {
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+    display: block;
+    clear: left;
+    margin-bottom: 10px;
+}
+div#heading-note {
+    font-weight: bold;
+    font-size: 13px;
+    display: block;
+    float: left;
+    clear: right;
+    margin: 11px 0 0 13px;
+}
+
+div#sub-heading {
+    font-size: 13px;
+    font-weight: normal;
+    display: block;
+    float: left;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+div#main {
+    width: 100%;
+    display: block;
+    float: left;
+    clear: both;
+}
+
+div.message #flash-text {}
+div.message #error-text {
+    color: red;
+}
+
+div#prob-container {
+  position: relative;
+}
+
+div#prob-title {
+   font-size: 15pt;
+   font-family: sans-serif;
+   font-weight: bold;
+   float: left;
+}
+
+div#prob-number {
+  position: absolute;
+  right: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #888;
+  top: -10px;
+}
+
+button#solutions-link {
+    margin-left: 20px;
+    margin-top: -1px;
+}
+
+div#prob-desc {
+   overflow: hidden;
+}
+
+table.testcases {
+  font-size: 1.3em;
+  float: left;
+}
+
+div#shared-code-box {
+  width: 90%;
+  font-size: 1.3em;
+  float: left;
+}
+
+div#testcases {
+   float: left;
+   margin: 10px;
+}
+
+li.testcase {
+   font-size: 15px;
+   padding: 3px;
+   list-style-type: none;
+   background-color: #eee;
+   font-family: Courier;
+}
+div.syntaxhighlighter {
+  padding: 4px;
+}
+
+div#restrictions {
+   list-style-type: none;
+   border-style: dashed;
+   border-color: DarkRed;
+   border-width: normal;
+   margin-right: 45px;
+   margin-bottom: 15px;
+   margin-top: 15px;
+   margin-left: 15px;
+   padding: 10px;
+   color: red;
+   float: right;
+   font-size: 16px;
+}
+
+#contact {
+   color: #FFFFFF;
+   margin-left: 1.3em;
+}
+
+textarea#code-box, #problem-submission textarea {
+   width: 500px;
+   height: 250px;
+}
+
+form#problem-submission label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 4px;
+}
+
+form#problem-submission #problem-description {
+  height: 4em;
+}
+
+div#problems-error {
+  font-size: 1.4em;
+  margin: 2px 0 10px;
+}
+
+#code-div{
+  width: 100%;
+  height: 250px;
+}
+
+#editor {
+   margin: 0px;
+   float: left;
+   width: 50%;
+   height: 250px;
+   overflow: hidden;
+   border: 1px solid #aaa;
+}
+
+table.my-table {
+   padding: 2px;
+   border-collapse: collapse;
+}
+
+table.my-table td {
+   text-align: left;
+   font-size: 12px;
+   vertical-align: middle;
+}
+
+tr.evenrow {
+    background-color: #E2E4FF;
+}
+
+tr.oddrow {
+    background-color: white;
+}
+
+td.oddrank {
+    background-color: #DDF !important;
+}
+
+td.evenrank {
+    background-color: #EEF !important;
+}
+
+td.title-link {
+   font-size: 16px;
+}
+
+td.count-total {
+    font-weight: bold;
+}
+
+td.count-total-value {
+    font-weight: bold;
+    text-align: right;
+    width: 45px;
+}
+
+td.count-value {
+    text-align: right;
+    width: 45px;
+    padding-left: 15px;
+}
+
+table.my-table th {
+   padding: 10px 0px 0px 0px;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+
+button {
+   border: 1px solid #A1CC59;
+   color: #32401C;
+   font-size: 14px;
+   font-weight: bold;
+   height: 23px;
+   margin: 4px;
+   padding: 1px 6px 2px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   background: #BCEE68;
+   background: -moz-linear-gradient(top, #BCEE68, #A1CC59);
+   background: -webkit-gradient(linear, left top, left bottom, from(#BCEE68), to(#A1CC59));
+   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#BCEE68', endColorstr='#A1CC59')";
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#BCEE68', endColorstr='#A1CC59');
+}
+
+button.large {
+   font-size: 16px;
+   padding: 3px 10px;
+   height: 26px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+}
+
+button:hover {
+   cursor: pointer;
+   outline: none;
+   text-decoration: none;
+   background: #D1F09E;
+   background: -moz-linear-gradient(top, #D1F09E, #A1CC59);
+   background: -webkit-gradient(linear, left top, left bottom, from(#D1F09E), to(#A1CC59));
+   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#D1F09E', endColorstr='#A1CC59')";
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D1F09E', endColorstr='#A1CC59');
+}
+
+button:active {
+   position: relative;
+   top: 1px;
+   outline: none;
+   background: #A1CC59;
+   background: -moz-linear-gradient(top, #A1CC59, #A7D45C);
+   background: -webkit-gradient(linear, left top, left bottom, from(#A1CC59), to(#A7D45C));
+   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#A1CC59', endColorstr='#A7D45C')";
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A1CC59', endColorstr='#A7D45C');
+}
+
+#golfgraph{
+  width: 90%;
+}
+
+#golfgraph img{
+  padding-top: 25px;
+}
+
+#golf-scores{
+  color: black;
+  font-size: 16px;
+  width: 25%;
+  float: right;
+  background-color:#bbddee;
+  overflow: auto;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#instruct{
+  font-weight: bold;
+  padding-top: 25px;
+  width: 100%;
+}
+
+#theme {
+    margin-bottom: 10px;
+}
+
+#golfheader{
+  font-weight: bold;
+  background-color:#445599;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+#graph-link{
+  width: 100%;
+  text-align: center;
+  float: right;
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 5px;
+  display: none;
+}
+
+a.graph-class :hover {color: #445599;}
+
+#help-content{
+  width: 90%;
+}
+
+.ranking {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#github-banner {
+    float: right;
+    display: block;
+    border: 0px;
+    width: 135px;
+    height: 135px;
+    margin-top: -20px;
+    background-image: url(/images/banner.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#github-banner a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.solution-username {
+    font-weight: bold;
+}
+
+.solution-code {
+    padding: 10px;
+}
+
+.solution-user-code {
+    border: #AAA solid 10px;
+    padding: 0px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.CodeMirror {
+    font-size: 14px;
+}
+
+.CodeMirror .CodeMirror-scroll {
+    height: auto;
+    overflow: visible;
+}
+
+.CodeMirror.codebox .CodeMirror-scroll {
+    height: 300px;
+    overflow: auto;
+}
+
+.codebox {
+    border: 1px solid black;
+}
+
+.CodeMirror.test {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+hr.solution {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
